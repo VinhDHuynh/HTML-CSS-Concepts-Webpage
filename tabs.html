@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-tabs.css">
+    <title>Tabs</title>
+</head>
+<body>
+  <div class="mytabs">
+    <input type="radio" id="tab1" name="mytabs" checked="checked">
+    <label for="tab1">Tab1</label>
+    <div class="tab">
+      <h2>Tab1</h2>
+      <p>Click on Tab1,Tab2, and Tab3. Note how the page doesn't reload, but different content is displayed</p>
+    </div>
+
+    <input type="radio" id="tab2" name="mytabs">
+    <label for="tab2">Tab2</label>
+    <div class="tab">
+      <h2>Tab2</h2>
+      <p>To achieve this trick, I used CSS 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+        onclick="window.open(this.href); return false;">pesudo-classes</a>
+        ! Based on whether an input is "checked" or not, 
+        I can control whether that content will be displayed or not. That is, the content of all this webpage 
+        is in one html document. To verify this, you right click->source to see the HTML source code.
+    </p>
+    </div>
+
+    <input type="radio" id="tab3" name="mytabs">
+    <label for="tab3">Tab3</label>
+    <div class="tab">
+      <h2>Extra</h2>
+      <p>As a bonus, note how the cursor and color of the tabs change once they are hovered. 
+        This can be achieved with certain CSS psuedo-classes as well! Pseudo-classes are a way
+        of applying styling only when certain conditions are met, which is a powerful tool 
+        you guys should get accustom to.
+    </p>
+
+    </div>
+
+  </div>
+</body>
+</html>

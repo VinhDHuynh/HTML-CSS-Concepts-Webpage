@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox vs Grid Example</title>
+  <style>
+    /* Flexbox */
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .flex-item {
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+      margin: 10px;
+    }
+
+    /* Grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .grid-item {
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+    }
+
+    /* Common styles */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Flexbox Example</h2>
+    <div class="flex-container">
+      <div class="flex-item">Item 1</div>
+      <div class="flex-item">Item 2</div>
+      <div class="flex-item">Item 3</div>
+      <div class="flex-item">Item 4</div>
+      <div class="flex-item">Item 5</div>
+      <div class="flex-item">Item 6</div>
+    </div>
+
+    <h2>Grid Example</h2>
+    <div class="grid-container">
+      <div class="grid-item">Item 1</div>
+      <div class="grid-item">Item 2</div>
+      <div class="grid-item">Item 3</div>
+      <div class="grid-item">Item 4</div>
+      <div class="grid-item">Item 5</div>
+      <div class="grid-item">Item 6</div>
+    </div>
+  </div>
+</body>
+</html>

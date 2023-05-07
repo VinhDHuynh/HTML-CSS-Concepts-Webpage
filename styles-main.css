@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+  border-collapse: collapse; /* Merge borders between cells */
+  /*border-style: hidden;*/
+  top:50%;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black; /* Add a solid black border to table headers and cells */
+  padding: 8px; /* Add padding to create space between content and borders */
+  text-align: left; /* Align content to the left within cells */
+}
+
+tbody tr:hover{
+    background-color: beige;
+}
+
+a:hover{
+    color:red;
+    
+}
+
+.italic{
+  font-style: italic;
+}
