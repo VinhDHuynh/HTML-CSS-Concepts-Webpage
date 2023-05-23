@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Input Examples</title>
+<title>Specificity</title>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles1-specificity.css">
-  <link rel="stylesheet" href="styles2-specificity.css"> <!--Note that I am including two style sheets. Look at what elements are edited-->
+  <link rel="stylesheet" href="styles2-specificity.css"> 
+  
+  <!--Note that I am including two style sheets. Look at what elements are edited-->
 </head>
 <body>
-    <h1 class="header">Input Types</h1>
+  <nav>
+    <ul>
+      <div class="home-button">
+      <li><a href="main.html">Home</a></li>
+    </ul>
+      </div>
+  <div class = "container">
+
+
+    </nav>
+    <h1 class="header">Specificity</h1>
+
+    <article>
+    <p class="first">This page has <u>two</u> stylesheets linked to the page. Inspect element 
+      this page to see the stylesheets, and pay attention to which
+      style ultimately ends up being applied. For instance, the header is 
+      colored by stylesheet 2.
+    </p>
+    </article>
+    <article>
+    <p id="paragraph2" style="color: green">Elements that are colored red are colored by the first 
+      stylesheet, elements colored blue are colored by the second stylesheet, and 
+      green if it is colored by inline CSS.
+    </p>
+  </article>
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoyxrBK" data-user="Vinh-H-the-flexboxer" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/Vinh-H-the-flexboxer/pen/PoyxrBK">
+    Untitled</a> by Vinh H (<a href="https://codepen.io/Vinh-H-the-flexboxer">@Vinh-H-the-flexboxer</a>)
+    on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  <q>test</q>
+  </div>
 </body>
 </html>

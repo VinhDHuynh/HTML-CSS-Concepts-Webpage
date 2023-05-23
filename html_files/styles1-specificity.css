@@ -1,3 +1,24 @@
-.header{
-    color:red
+.container{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+h1{
+  color:red;
+}
+article{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex: wrap;
+}
+p{
+  width: 80ch;
+  color:red;
+  outline: 1px solid black;
 }
